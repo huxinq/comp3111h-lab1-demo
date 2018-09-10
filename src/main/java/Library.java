@@ -3,7 +3,9 @@
  */
 public class Library {
 	public static void main(String arg[]) {
-		System.out.println("When there's a fire, commit and push.");
+		Library lib = new Library();
+		if (lib.someLibraryMethod())
+			System.out.println("When there is a fire, there is a way.");
 	}
     public boolean someLibraryMethod() {
         return true;
